@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  background-color: rgb(122, 8, 8);
+}
+
+img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  z-index: 2;
+  color: white;
+}
+
+h3 {
+  color: white;
+  z-index: 10;
+  text-decoration: underline;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  z-index: 2;
+  color: white;
+}
+
+.title {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+  font-size: 1.5rem;
+}
+
+.campaign-mode,
+.multiplayer-mode {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-inline: 15%;
+}
+
+.person-review {
+  border: 3px solid whitesmoke;
+  margin-inline: 2rem;
+  margin-block: 1.5rem;
+}
+
+.reviews__title {
+  text-align: center;
+}
